@@ -10,3 +10,8 @@ dist*
 _build/
 test*.md
 run.sh
+pytorch/
+paddle/
+mxnet/
+tensorflow/
+__MACOSX/
