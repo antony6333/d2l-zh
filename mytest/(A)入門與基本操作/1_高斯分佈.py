@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_preliminaries/probability.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. 高斯分佈：描述數據在均值附近的分佈情況，具有對稱性。
+# 2. 標準差的影響：標準差越大，分佈越分散；標準差越小，分佈越集中。
+# 3. 機率計算：利用累積分佈函數（CDF）計算數據落在某範圍內的機率。
+
 import torch
 from scipy.stats import norm
 

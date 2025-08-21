@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_preliminaries/gradients.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. 自動微分：PyTorch 提供自動計算張量梯度的功能，通過 `requires_grad` 啟用。
+# 2. backward() 方法：計算損失函數對輸入張量的梯度。
+# 3. 梯度存儲：計算的梯度存儲在 `x.grad` 中，可用於參數更新。
+
 import torch
 
 # 創建一個張量並啟用梯度計算

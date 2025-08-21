@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_linear-networks/linear-regression.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. 線性迴歸的基本原理：通過最小化損失函數來學習線性模型的參數。
+# 2. 損失函數：均方誤差（MSE）用於衡量模型預測值與真實值之間的差距。
+# 3. 優化方法：隨機梯度下降（SGD）用於更新模型參數以最小化損失。
+
 import torch
 import torch.nn as nn
 import torch.optim as optim

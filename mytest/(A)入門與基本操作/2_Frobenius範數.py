@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_preliminaries/norms.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. Frobenius 範數：矩陣中所有元素平方和的平方根，表示矩陣的整體大小。
+# 2. 計算公式：$$ \|A\|_F = \sqrt{\sum_{i=1}^m \sum_{j=1}^n a_{ij}^2} $$。
+# 3. 幾何意義：範數反映了矩陣元素的分佈特性和整體大小。
+
 import torch
 import matplotlib.pyplot as plt
 

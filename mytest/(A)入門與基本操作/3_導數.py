@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_preliminaries/derivatives.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. 導數的基本定義：描述函數在某一點的變化率。
+# 2. 切線的幾何意義：切線的斜率即為該點的導數值。
+# 3. 導數的應用：在深度學習中，導數用於計算梯度，指導參數更新。
+
 import numpy as np
 import matplotlib.pyplot as plt
 

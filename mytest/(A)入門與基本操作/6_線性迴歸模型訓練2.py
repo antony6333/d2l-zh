@@ -1,3 +1,10 @@
+# 根據教學章節 pytorch/chapter_linear-networks/linear-regression-scratch.ipynb 所作的練習
+# 
+# 核心概念：
+# 1. 線性迴歸的手動實現：不使用高階框架，直接操作張量進行計算。
+# 2. 梯度計算：使用 PyTorch 的自動微分功能計算參數的梯度。
+# 3. 模型訓練流程：包括前向傳播、損失計算、反向傳播和參數更新。
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
