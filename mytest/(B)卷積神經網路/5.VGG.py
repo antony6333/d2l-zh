@@ -1,3 +1,4 @@
+# VGG 是 2014 年由 Simonyan 和 Zisserman 提出的深度學習技術。
 # 本程式是根據 pytorch/chapter_convolutional-modern/vgg.ipynb 所做的練習
 # VGG網路學習與實作
 

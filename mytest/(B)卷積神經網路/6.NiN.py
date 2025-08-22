@@ -1,3 +1,4 @@
+# NiN (Network in Network) 是 2013 年由 Lin 等人提出的深度學習技術。
 # 本程式是根據 pytorch/chapter_convolutional-modern/nin.ipynb 所做的練習
 # NiN (Network in Network) 網路學習與實作
 
@@ -20,6 +21,7 @@ NiN網路核心概念與技術點：
    - 優點：參數更少、計算高效、可移植性好、對過擬合友好（使用全局平均池化）。
    - 缺點：若不謹慎設計，模型深度或頻寬不足仍會限制表達能力。
 
+(注意: 這個範例即使用GPU(geforce rtx 2060super)全力跑也是跑很久)
 """
 
 import torch

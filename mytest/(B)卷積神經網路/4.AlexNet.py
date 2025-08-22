@@ -1,3 +1,4 @@
+# AlexNet 是 2012 年由 Krizhevsky 等人提出的深度學習技術。
 # 根據: pytorch/chapter_convolutional-modern/alexnet.ipynb
 # 本檔案為練習程式，示範 AlexNet 在 PyTorch 中的實作與簡短訓練流程。
 # 章節核心概念說明：
